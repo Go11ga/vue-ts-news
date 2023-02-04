@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VTNPagination snapshot 1`] = `
+<div
+  class="vtn-pagination"
+>
+  <v-t-n-pagination-item-stub
+    active="false"
+    class="vtn-pagination__prev"
+    label="Назад"
+    value="1"
+  />
+  
+  <v-t-n-pagination-item-stub
+    active="true"
+    label="1"
+    value="1"
+  />
+  <v-t-n-pagination-item-stub
+    active="false"
+    label="2"
+    value="2"
+  />
+  <v-t-n-pagination-item-stub
+    active="false"
+    label="3"
+    value="3"
+  />
+  <v-t-n-pagination-item-stub
+    active="false"
+    label="4"
+    value="4"
+  />
+  <v-t-n-pagination-item-stub
+    active="false"
+    label="5"
+    value="5"
+  />
+  <v-t-n-pagination-item-stub
+    active="false"
+    label="6"
+    value="6"
+  />
+  <v-t-n-pagination-item-stub
+    active="false"
+    label="7"
+    value="7"
+  />
+  <v-t-n-pagination-item-stub
+    active="false"
+    label="8"
+    value="8"
+  />
+  <v-t-n-pagination-item-stub
+    active="false"
+    label="9"
+    value="9"
+  />
+  <v-t-n-pagination-item-stub
+    active="false"
+    label="10"
+    value="10"
+  />
+  
+  <v-t-n-pagination-item-stub
+    active="false"
+    class="vtn-pagination__next"
+    label="Вперёд"
+    value="2"
+  />
+</div>
+`;

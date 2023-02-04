@@ -1,0 +1,62 @@
+$name: vtn-controls;
+
+.#{$name} {
+    padding: 25px 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__link {
+        margin-right: 20px;
+
+        font-weight: 700;
+        color: $black;
+        text-decoration: none;
+
+        transition: color .2s linear;
+
+        &:hover {
+            color: lighten($black, 60%);
+        }
+
+        &--active {
+            color: $blue;
+        }
+    }
+
+    &__btn {
+        width: 18px;
+        height: 18px;
+
+        border: none;
+        background-color: transparent;
+
+        cursor: pointer;
+
+        &:last-child {
+            margin-left: 10px;
+        }
+
+        &:hover {
+            .#{$name}__icon {
+                fill: lighten($black, 60%);
+            }
+        }
+
+        &--active {
+            .#{$name}__icon {
+                fill: $blue;
+            }
+        }
+    }
+
+    &__icon {
+        width: inherit;
+        height: inherit;
+
+        fill: $black;
+
+        transition: fill .2s linear;
+    }
+}

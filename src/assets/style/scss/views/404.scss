@@ -1,0 +1,35 @@
+.vtn-404 {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__code {
+        margin-bottom: 20px;
+
+        font-size: 24px;
+        font-weight: 700;
+        color: $blue;
+    }
+
+    &__text {
+        margin-bottom: 20px;
+
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    &__link {
+        color: $black;
+        font-weight: 700;
+        text-decoration: none;
+
+        transition: color .2s linear;
+
+        &:hover {
+            color: lighten($black, 60%);
+        }
+    }
+}

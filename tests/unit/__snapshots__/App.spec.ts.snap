@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`компонент App snapshot 1`] = `
+<div
+  class="layout"
+>
+  <header
+    class="layout__header"
+  >
+    <v-t-n-sprite-stub />
+    <v-t-n-header-stub />
+    <v-t-n-controls-stub />
+  </header>
+  <main
+    class="layout__main"
+  >
+    <router-view-stub />
+  </main>
+  <footer
+    class="layout__footer"
+  >
+    <v-t-n-footer-stub />
+  </footer>
+</div>
+`;

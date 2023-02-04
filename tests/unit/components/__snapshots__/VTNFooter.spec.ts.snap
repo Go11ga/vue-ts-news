@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VTNFooter snapshot 1`] = `
+<footer
+  class="footer"
+>
+  <div
+    class="footer__credentials"
+  >
+     by Igor Khromov © 
+  </div>
+</footer>
+`;

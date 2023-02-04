@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VTNSprite snapshot 1`] = `
+<div
+  style="display: none;"
+>
+  <svg
+    id="icon_list"
+    viewBox="0 0 18 18"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      height="8"
+      width="18"
+    />
+    <rect
+      height="8"
+      width="18"
+      y="10"
+    />
+  </svg>
+  <svg
+    id="icon_grid"
+    viewBox="0 0 18 18"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      height="8"
+      width="8"
+    />
+    <rect
+      height="8"
+      width="8"
+      y="10"
+    />
+    <rect
+      height="8"
+      width="8"
+      x="10"
+    />
+    <rect
+      height="8"
+      width="8"
+      x="10"
+      y="10"
+    />
+  </svg>
+</div>
+`;

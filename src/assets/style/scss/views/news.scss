@@ -1,0 +1,23 @@
+.vtn-news {
+    height: 100%;
+    
+    margin: 0 -10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-wrap: wrap;
+
+    &__empty {
+        height: 100%;
+        width: 100%;
+        padding: 100px 0;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 24px;
+        font-weight: 700;
+    }
+}

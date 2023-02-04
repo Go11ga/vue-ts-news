@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VTNNews snapshot 1`] = `
+<div
+  class="vtn-news"
+>
+  <!--v-if-->
+  
+  
+  <v-t-n-news-item-stub
+    newsitem="[object Object]"
+  />
+  <v-t-n-news-item-stub
+    newsitem="[object Object]"
+  />
+  
+  <v-t-n-pagination-stub
+    currentpage="1"
+    totalcount="10"
+  />
+  
+  <!--v-if-->
+</div>
+`;

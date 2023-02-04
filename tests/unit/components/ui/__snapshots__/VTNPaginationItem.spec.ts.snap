@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VTNPaginationItem snapshot 1`] = `
+<router-link-stub
+  class="vtn-pagination__item"
+  to="[object Object]"
+/>
+`;

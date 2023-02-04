@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VTNNewsItem snapshot 1`] = `
+<div
+  class="vtn-newsitem vtn-newsitem--list"
+>
+  <div
+    class="vtn-newsitem__inner"
+  >
+    <div
+      class="vtn-newsitem__header"
+    >
+      <a
+        class="vtn-newsitem__title"
+        href="https://domain_01.com/domain_01"
+        target="_blank"
+      >
+        Title_01
+      </a>
+    </div>
+    <div
+      class="vtn-newsitem__content"
+    >
+      <img
+        class="vtn-newsitem__img"
+        src="https://domain_01_img.com"
+      />
+      <div
+        class="vtn-newsitem__text"
+      >
+        Description_01
+      </div>
+      <button
+        class="vtn-newsitem__btn"
+      >
+         Подробнее 
+      </button>
+    </div>
+    <div
+      class="vtn-newsitem__footer"
+    >
+      <a
+        class="vtn-newsitem__channel-link"
+        href="https://domain_01.com"
+        target="_blank"
+      >
+        https://domain_01.com
+      </a>
+      <div
+        class="vtn-newsitem__pubdate"
+      >
+        03.01.2023 23:48:00
+      </div>
+    </div>
+  </div>
+</div>
+`;

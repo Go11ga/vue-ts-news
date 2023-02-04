@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VTNHeader snapshot 1`] = `
+<div
+  class="header"
+>
+  <div
+    class="header__item-about"
+  >
+    <h1
+      class="header__title"
+    >
+       Список новостей 
+    </h1>
+    <button
+      class="header__refresh-btn"
+    >
+      <img
+        alt="refresh"
+        class="header__refresh-img"
+      />
+    </button>
+  </div>
+  <div
+    class="header__item-search"
+  >
+    <label
+      class="header__input-label"
+    >
+      <input
+        class="header__input"
+      />
+      <button
+        class="header__search-btn"
+      >
+        <img
+          class="header__search-img"
+        />
+      </button>
+    </label>
+  </div>
+</div>
+`;

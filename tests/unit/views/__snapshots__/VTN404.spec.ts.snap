@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VTN404 snapshot 1`] = `
+<div
+  class="vtn-404"
+>
+  <div
+    class="vtn-404__code"
+  >
+     404 
+  </div>
+  <div
+    class="vtn-404__text"
+  >
+     Страница не найдена 
+  </div>
+  <router-link-stub
+    class="vtn-404__link"
+    to="/"
+  />
+</div>
+`;

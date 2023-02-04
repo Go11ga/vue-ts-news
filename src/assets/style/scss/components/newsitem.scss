@@ -1,0 +1,151 @@
+$name: vtn-newsitem;
+
+.#{$name} {
+    padding: 0 10px;
+    margin-bottom: 20px;
+
+    width: 50%;
+
+    @media screen and (max-width: $point_md) {
+        width: 100%;
+    }
+
+    &__inner {
+        padding: 20px;
+    
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+        border-radius: 3px;
+    }
+
+    &__header {
+        margin-bottom: 10px;
+        min-height: 45px;
+        display: flex;
+        align-items: flex-start;
+
+        @media screen and (max-width: $point_xl) {
+            min-height: 65px;
+        }
+
+        @media screen and (max-width: $point_md) {
+            min-height: 45px;
+        }
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 1.125rem;
+        line-height: 1.2;
+        color: $blue;
+        text-decoration: none;
+
+        transition: all .2s linear;
+
+        &:hover {
+            color: lighten($black, 60%);
+        }
+    }
+
+    &__content {
+        min-height: 46px;
+        margin-bottom: 10px;
+
+        display: grid;
+
+        grid-template-areas: 
+            "text"
+            "btn";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+
+        justify-items: start;
+    }
+
+    &__img {
+        grid-area: img;
+
+        display: none;
+    }
+
+    &__text {
+        grid-area: text;
+
+        margin-bottom: 10px;
+        width: 100%;
+
+        font-size: 14px;
+        line-height: 18px;
+        
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        
+        &--height-auto {
+            white-space: normal;
+            text-overflow: clip;
+        }
+    }
+
+    &__btn {
+        grid-area: btn;
+
+        background-color: transparent;
+        border: 0;
+        outline: 0;
+
+        font-size: .875rem;
+        color: $blue;
+        cursor: pointer;
+    }
+
+    &__footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__channel-link {
+        font-size: .875rem;
+        color: $light_grey;
+    }
+
+    &__pubdate {
+        font-size: .875rem;
+        color: $light_grey;
+    }
+
+    &--list {
+        width: 100%;
+
+        .#{$name} {
+            &__content {
+                grid-template-areas: 
+                    "img . text"
+                    "img . text"
+                    "img . btn";
+                   
+                grid-template-columns: 300px 20px 1fr;
+                grid-template-rows: auto auto 20px;
+
+                @media screen and (max-width: $point_md) {
+                    grid-template-areas: 
+                    "img img"
+                    ". ."
+                    "text text"
+                    "btn .";
+
+                   
+                    grid-template-columns: 60px auto;
+                    grid-template-rows: auto 20px auto 20px;
+                }
+            }
+
+            &__img {
+                display: block;
+                width: 100%;
+                max-width: 300px;
+                height: auto;
+            }
+        }
+    }
+}

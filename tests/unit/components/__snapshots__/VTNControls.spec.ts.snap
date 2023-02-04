@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VTNControls snapshot 1`] = `
+<div
+  class="vtn-controls"
+>
+  <nav
+    class="vtn-controls__nav"
+  >
+    
+    <router-link-stub
+      class="vtn-controls__link"
+      to="/all/1"
+    />
+    <router-link-stub
+      class="vtn-controls__link vtn-controls__link--active"
+      to="/lenta/1"
+    />
+    <router-link-stub
+      class="vtn-controls__link"
+      to="/bbc-news/1"
+    />
+    
+  </nav>
+  <div
+    class="vtn-controls__item"
+  >
+    
+    <button
+      class="vtn-controls__btn vtn-controls__btn--active"
+    >
+      <svg
+        class="vtn-controls__icon"
+      >
+        <use
+          xlink:href="#icon_grid"
+        />
+      </svg>
+    </button>
+    <button
+      class="vtn-controls__btn"
+    >
+      <svg
+        class="vtn-controls__icon"
+      >
+        <use
+          xlink:href="#icon_list"
+        />
+      </svg>
+    </button>
+    
+  </div>
+</div>
+`;

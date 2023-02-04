@@ -1,0 +1,44 @@
+.vtn-pagination {
+    width: 100%;
+    padding: 20px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &__prev {
+        @media screen and (max-width: $point_sm) {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+
+    &__next {
+        @media screen and (max-width: $point_sm) {
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
+
+    &__item {
+        min-width: 28px;
+        padding: 3px 5px;
+
+        color: $black;
+        font-size: 1.2rem;
+        font-weight: 700;
+        text-decoration: none;
+        text-align: center;
+
+        transition: color .2s linear;
+
+        &:hover {
+            color: lighten($black, 60%);
+        }
+
+        &--active {
+            color: $blue;
+        }
+    }
+}
